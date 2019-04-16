@@ -83,26 +83,26 @@ module plic_top #(
   logic [N_TARGET-1:0][N_SOURCE:0] ie_i, ie_o;
   logic [N_TARGET-1:0] ie_we_o;
 
-  plic_regs i_plic_regs (
-    .prio_i(prio_i),
-    .prio_o(prio_o),
-    .prio_we_o(prio_we_o),
-    .prio_re_o(), // don't care
+  plic_regmap #(
+    .NumSource ( N_SOURCE ),
+    .NumTarget ( N_TARGET ),
+    .MaxPrio   ( MAX_PRIO )
+  ) i_plic_regmap (
+    .prio_i          ( prio_i         ),
+    .prio_o          ( prio_o         ),
+    .prio_we_o       ( prio_we_o      ),
     // source zero is always zero
-    .ip_i({ip, 1'b0}),
-    .ip_re_o(), // don't care
-    .ie_i(ie_i),
-    .ie_o(ie_o),
-    .ie_we_o(ie_we_o),
-    .ie_re_o(), // don't care
-    .threshold_i(threshold_q),
-    .threshold_o(threshold_o),
-    .threshold_we_o(threshold_we_o),
-    .threshold_re_o(), // don't care
-    .cc_i(claim_id),
-    .cc_o(complete_id),
-    .cc_we_o(complete_we),
-    .cc_re_o(claim_re),
+    .ip_i            ( {ip, 1'b0}     ),
+    .ie_i            ( ie_i           ),
+    .ie_o            ( ie_o           ),
+    .ie_we_o         ( ie_we_o        ),
+    .threshold_i     ( threshold_q    ),
+    .threshold_o     ( threshold_o    ),
+    .threshold_we_o  ( threshold_we_o ),
+    .cc_i            ( claim_id       ),
+    .cc_o            ( complete_id    ),
+    .cc_we_o         ( complete_we    ),
+    .cc_re_o         ( claim_re       ),
     .req_i,
     .resp_o
   );
