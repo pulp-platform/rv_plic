@@ -83,22 +83,21 @@ always_comb begin
 
     end else begin
 
-      for (logic[31:0] k=0; k <= NumSource ; k++) begin
-        unique case (req_i.addr)
-          // interrupt priority
-          // note, source 0 is hardwired to 0
-          32'hc000000+k*4: begin
+      for (logic[31:0] k=1; k <= NumSource ; k++) begin
+        // interrupt priority
+        // note, source 0 is hardwired to 0
+        if (req_i.addr == 32'hc000000+k*4) begin
             resp_o.rdata[$clog2(MaxPrio)-1:0] = prio_i[k][$clog2(MaxPrio)-1:0];
             resp_o.error = 1'b0;
-          end
-          // interrupt pending register
-          // note, interrupt 0 is hardwired to 0
-          32'hc001000+(k/32)*4: begin
-            resp_o.rdata[k%32] = ip_i[k];
-            resp_o.error = 1'b0;
-          end
-        endcase // req_i.addr
+        end
       end // NumSource
+
+      // interrupt pending register
+      // note, interrupt 0 is hardwired to 0
+      if (req_i.addr == 32'hc001000) begin
+        resp_o.rdata = ip_i;
+        resp_o.error = 1'b0;
+      end
 
       for (logic[31:0] j=0; j < NumTarget ; j++) begin
         unique case (req_i.addr)
