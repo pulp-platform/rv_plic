@@ -470,7 +470,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -496,7 +502,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -522,7 +534,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -548,7 +566,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -574,7 +598,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -600,7 +630,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -626,7 +662,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -652,7 +694,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -678,7 +726,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -704,7 +758,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -730,7 +790,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -756,7 +822,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -782,7 +854,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -808,7 +886,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -834,7 +918,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -860,7 +950,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -886,7 +982,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -912,7 +1014,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -938,7 +1046,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -964,7 +1078,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -990,7 +1110,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1016,7 +1142,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1042,7 +1174,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1068,7 +1206,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1094,7 +1238,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1120,7 +1270,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1146,7 +1302,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1172,7 +1334,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1198,7 +1366,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1224,7 +1398,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1250,7 +1430,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1276,7 +1462,13 @@ module rv_plic_reg_top (
     .rst_ni  (rst_ni  ),
 
     // from register interface
+`ifdef _VCP // PAK2591
+    .we     (ariane_pkg::ALDEC_1B0),
+
+`else
     .we     (1'b0),
+
+`endif
     .wd     ('0  ),
 
     // from internal hardware
@@ -1308,7 +1500,13 @@ module rv_plic_reg_top (
     .wd     (le_le0_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1334,7 +1532,13 @@ module rv_plic_reg_top (
     .wd     (le_le1_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1360,7 +1564,13 @@ module rv_plic_reg_top (
     .wd     (le_le2_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1386,7 +1596,13 @@ module rv_plic_reg_top (
     .wd     (le_le3_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1412,7 +1628,13 @@ module rv_plic_reg_top (
     .wd     (le_le4_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1438,7 +1660,13 @@ module rv_plic_reg_top (
     .wd     (le_le5_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1464,7 +1692,13 @@ module rv_plic_reg_top (
     .wd     (le_le6_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1490,7 +1724,13 @@ module rv_plic_reg_top (
     .wd     (le_le7_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1516,7 +1756,13 @@ module rv_plic_reg_top (
     .wd     (le_le8_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1542,7 +1788,13 @@ module rv_plic_reg_top (
     .wd     (le_le9_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1568,7 +1820,13 @@ module rv_plic_reg_top (
     .wd     (le_le10_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1594,7 +1852,13 @@ module rv_plic_reg_top (
     .wd     (le_le11_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1620,7 +1884,13 @@ module rv_plic_reg_top (
     .wd     (le_le12_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1646,7 +1916,13 @@ module rv_plic_reg_top (
     .wd     (le_le13_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1672,7 +1948,13 @@ module rv_plic_reg_top (
     .wd     (le_le14_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1698,7 +1980,13 @@ module rv_plic_reg_top (
     .wd     (le_le15_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1724,7 +2012,13 @@ module rv_plic_reg_top (
     .wd     (le_le16_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1750,7 +2044,13 @@ module rv_plic_reg_top (
     .wd     (le_le17_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1776,7 +2076,13 @@ module rv_plic_reg_top (
     .wd     (le_le18_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1802,7 +2108,13 @@ module rv_plic_reg_top (
     .wd     (le_le19_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1828,7 +2140,13 @@ module rv_plic_reg_top (
     .wd     (le_le20_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1854,7 +2172,13 @@ module rv_plic_reg_top (
     .wd     (le_le21_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1880,7 +2204,13 @@ module rv_plic_reg_top (
     .wd     (le_le22_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1906,7 +2236,13 @@ module rv_plic_reg_top (
     .wd     (le_le23_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1932,7 +2268,13 @@ module rv_plic_reg_top (
     .wd     (le_le24_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1958,7 +2300,13 @@ module rv_plic_reg_top (
     .wd     (le_le25_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -1984,7 +2332,13 @@ module rv_plic_reg_top (
     .wd     (le_le26_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2010,7 +2364,13 @@ module rv_plic_reg_top (
     .wd     (le_le27_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2036,7 +2396,13 @@ module rv_plic_reg_top (
     .wd     (le_le28_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2062,7 +2428,13 @@ module rv_plic_reg_top (
     .wd     (le_le29_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2088,7 +2460,13 @@ module rv_plic_reg_top (
     .wd     (le_le30_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2114,7 +2492,13 @@ module rv_plic_reg_top (
     .wd     (le_le31_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2141,7 +2525,13 @@ module rv_plic_reg_top (
     .wd     (prio0_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2168,7 +2558,13 @@ module rv_plic_reg_top (
     .wd     (prio1_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2195,7 +2591,13 @@ module rv_plic_reg_top (
     .wd     (prio2_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2222,7 +2624,13 @@ module rv_plic_reg_top (
     .wd     (prio3_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2249,7 +2657,13 @@ module rv_plic_reg_top (
     .wd     (prio4_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2276,7 +2690,13 @@ module rv_plic_reg_top (
     .wd     (prio5_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2303,7 +2723,13 @@ module rv_plic_reg_top (
     .wd     (prio6_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2330,7 +2756,13 @@ module rv_plic_reg_top (
     .wd     (prio7_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2357,7 +2789,13 @@ module rv_plic_reg_top (
     .wd     (prio8_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2384,7 +2822,13 @@ module rv_plic_reg_top (
     .wd     (prio9_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2411,7 +2855,13 @@ module rv_plic_reg_top (
     .wd     (prio10_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2438,7 +2888,13 @@ module rv_plic_reg_top (
     .wd     (prio11_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2465,7 +2921,13 @@ module rv_plic_reg_top (
     .wd     (prio12_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2492,7 +2954,13 @@ module rv_plic_reg_top (
     .wd     (prio13_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2519,7 +2987,13 @@ module rv_plic_reg_top (
     .wd     (prio14_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2546,7 +3020,13 @@ module rv_plic_reg_top (
     .wd     (prio15_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2573,7 +3053,13 @@ module rv_plic_reg_top (
     .wd     (prio16_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2600,7 +3086,13 @@ module rv_plic_reg_top (
     .wd     (prio17_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2627,7 +3119,13 @@ module rv_plic_reg_top (
     .wd     (prio18_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2654,7 +3152,13 @@ module rv_plic_reg_top (
     .wd     (prio19_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2681,7 +3185,13 @@ module rv_plic_reg_top (
     .wd     (prio20_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2708,7 +3218,13 @@ module rv_plic_reg_top (
     .wd     (prio21_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2735,7 +3251,13 @@ module rv_plic_reg_top (
     .wd     (prio22_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2762,7 +3284,13 @@ module rv_plic_reg_top (
     .wd     (prio23_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2789,7 +3317,13 @@ module rv_plic_reg_top (
     .wd     (prio24_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2816,7 +3350,13 @@ module rv_plic_reg_top (
     .wd     (prio25_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2843,7 +3383,13 @@ module rv_plic_reg_top (
     .wd     (prio26_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2870,7 +3416,13 @@ module rv_plic_reg_top (
     .wd     (prio27_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2897,7 +3449,13 @@ module rv_plic_reg_top (
     .wd     (prio28_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2924,7 +3482,13 @@ module rv_plic_reg_top (
     .wd     (prio29_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2951,7 +3515,13 @@ module rv_plic_reg_top (
     .wd     (prio30_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -2978,7 +3548,13 @@ module rv_plic_reg_top (
     .wd     (prio31_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3006,7 +3582,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e0_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3032,7 +3614,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e1_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3058,7 +3646,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e2_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3084,7 +3678,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e3_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3110,7 +3710,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e4_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3136,7 +3742,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e5_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3162,7 +3774,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e6_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3188,7 +3806,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e7_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3214,7 +3838,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e8_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3240,7 +3870,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e9_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3266,7 +3902,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e10_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3292,7 +3934,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e11_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3318,7 +3966,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e12_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3344,7 +3998,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e13_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3370,7 +4030,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e14_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3396,7 +4062,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e15_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3422,7 +4094,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e16_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3448,7 +4126,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e17_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3474,7 +4158,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e18_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3500,7 +4190,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e19_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3526,7 +4222,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e20_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3552,7 +4254,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e21_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3578,7 +4286,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e22_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3604,7 +4318,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e23_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3630,7 +4350,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e24_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3656,7 +4382,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e25_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3682,7 +4414,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e26_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3708,7 +4446,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e27_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3734,7 +4478,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e28_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3760,7 +4510,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e29_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3786,7 +4542,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e30_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3812,7 +4574,13 @@ module rv_plic_reg_top (
     .wd     (ie0_e31_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
@@ -3839,7 +4607,13 @@ module rv_plic_reg_top (
     .wd     (threshold0_wd),
 
     // from internal hardware
+`ifdef _VCP // PAK2591
+    .de     (ariane_pkg::ALDEC_1B0),
+
+`else
     .de     (1'b0),
+
+`endif
     .d      ('0  ),
 
     // to internal hardware
