@@ -32,6 +32,7 @@ always_comb begin
   ie_o = '0;
   ie_we_o = '0;
   ie_re_o = '0;
+  ip_re_o = '0;
   threshold_o = '0;
   threshold_we_o = '0;
   threshold_re_o = '0;
